@@ -1,0 +1,84 @@
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+   /* Colors */
+
+    /* Primary */
+
+    --primary-1: hsl(257, 40%, 49%);
+    --primary-2: hsl(300, 69%, 71%);
+
+}
+
+a{
+    text-decoration: none;
+}
+body {
+    background-color: var(--primary-1);
+    background-image: url("/images/bg-mobile.svg");
+    background-size: top;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 2rem 2rem 0 2rem;
+}
+
+.logo {
+    height: 30px;
+}
+main, 
+footer {
+    text-align: center;
+}
+.illustration {
+    padding: 3rem 0;
+}
+.illustration img{
+    display: block;
+    width: 100%;
+}
+.text {
+    margin-bottom: 4rem;
+}
+.text p {
+    padding: 2rem 0;
+    line-height: 1.5rem;
+    margin-bottom: .5rem;
+}
+
+.register-link {
+    padding: .8rem 4rem;
+    background: #fff;
+    border-radius: 30px;
+    color: var(--primary-1);
+}
+.social-media-icons a{
+    border: solid #fff 1px;
+    padding: .5rem;
+    border-radius: 50%;
+}
+.social-media-icons .facebook,
+.social-media-icons .instagram {
+    padding: .5rem .6rem;
+}
+
+.icon{
+    height: 15px;
+    vertical-align: middle;
+}
+
+.attribution { 
+    font-size: 11px;
+    margin-top: 2rem;
+}
+.attribution a { 
+    color: #fff;
+
+} 
+.attribution a:hover{
+    color: var(--primary-2);
+}
