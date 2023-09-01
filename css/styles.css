@@ -15,18 +15,18 @@
 
 }
 
-a{
-    text-decoration: none;
-}
+
 body {
     background-color: var(--primary-1);
     background-image: url("/images/bg-mobile.svg");
     background-size: top;
     background-repeat: no-repeat;
     color: #fff;
-    padding: 2rem 2rem 0 2rem;
+    padding: 2rem 2rem 1rem 2rem;
 }
-
+a{
+    text-decoration: none;
+}
 .logo {
     height: 30px;
 }
@@ -34,6 +34,9 @@ main,
 footer {
     text-align: center;
 }
+/************
+ ILLUSTRATION
+ ************/
 .illustration {
     padding: 3rem 0;
 }
@@ -41,8 +44,14 @@ footer {
     display: block;
     width: 100%;
 }
+/****
+ TEXT
+ ****/
 .text {
     margin-bottom: 4rem;
+} 
+.text h1 {
+    font-size: clamp(1.7rem, 5vw, 3rem);
 }
 .text p {
     padding: 2rem 0;
@@ -56,18 +65,17 @@ footer {
     border-radius: 30px;
     color: var(--primary-1);
 }
-.social-media-icons a{
-    border: solid #fff 1px;
-    padding: .5rem;
-    border-radius: 50%;
-}
-.social-media-icons .facebook,
-.social-media-icons .instagram {
-    padding: .5rem .6rem;
-}
 
+/******
+ FOOTER
+ ******/
+.social-media-icons {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
 .icon{
-    height: 15px;
+    height: 20px;
     vertical-align: middle;
 }
 
@@ -81,4 +89,51 @@ footer {
 } 
 .attribution a:hover{
     color: var(--primary-2);
+}
+
+/*************
+ MEDIA QUERIES
+ *************/
+
+@media (min-width: 768px) {
+    body {
+        background-image: url("/images/bg-desktop.svg");
+        background-size: bottom;  
+        padding: 4rem 4rem 2rem 4rem;
+    }
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        place-items: center;
+    }
+    .social-media-icons {
+        justify-content: flex-end;
+    }
+    .logo {
+        height: 30px;
+    }
+}
+@media (min-width: 1004px) {
+    body { 
+        height: 100vh;
+    }
+    .logo {
+        height: 50px;
+    }
+}
+@media (min-width: 1440px) {
+    .logo {
+        height: 60px;
+    }
+    body{
+        padding: 4rem 5rem 2rem 5rem;
+    }
+    main {
+        padding-top: 3rem;
+    }
+    
+    .icon{
+        height: 40px;
+    }
 }
