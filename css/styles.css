@@ -26,6 +26,7 @@ body {
 }
 a{
     text-decoration: none;
+    cursor: pointer;
 }
 .logo {
     height: 30px;
@@ -65,7 +66,11 @@ footer {
     border-radius: 30px;
     color: var(--primary-1);
 }
-
+.register-link:hover {
+    background: var(--primary-2);
+    color: #fff;
+    font-weight: 700;
+}
 /******
  FOOTER
  ******/
