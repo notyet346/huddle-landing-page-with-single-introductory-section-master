@@ -21,3 +21,31 @@ Users should be able to:
 
 - View the optimal layout for the page depending on their device's screen size
 - See hover states for all interactive elements on the page
+
+### Screenshot
+
+![width 375](./images/Screen%20Shot%202023-09-18%20at%2014.28.49.png)
+![width 1440](./images/Screen%20Shot%202023-09-18%20at%2014.32.24.png)
+
+### Links
+
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS 
+- Flexbox
+- Mobile-first workflow
+
+### Useful resources
+
+- [Font Awesome](https://fontawesome.com/)
+- [Google Fonts](https://fonts.google.com/)
+
+## Author
+
+- Frontend Mentor - [@notyet346](https://www.frontendmentor.io/profile/notyet346)
